@@ -1,23 +1,22 @@
-Step 1 — Project Architecture
-Internet (IndiaMART)
-        │
-        ▼
-Crawler (Scrapy / Requests / BeautifulSoup)
-        │
-        ▼
-Raw Data (JSON)
-        │
-        ▼
-ETL Pipeline (Clean + Transform)
-        │
-        ▼
-Structured Data (CSV / Pandas DataFrame)
-        │
-        ▼
-EDA + Visualization
-        │
-        ▼
-Insights + Charts
+slooze-data-engineering/
+│
+├── crawler/
+│   ├── crawler.py
+│   └── utils.py
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── etl/
+│   └── transform.py
+│
+├── eda/
+│   └── analysis.py
+│
+├── requirements.txt
+└── README.md
+
 ------------------------
 Step 2 — Recommended Tech Stack
 
