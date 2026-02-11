@@ -259,14 +259,6 @@ The crawler respects:
 * Publicly available data only
 * No authentication bypass
 
----
-
-## Author
-
-Submitted for: Slooze Data Engineering Take-Home Challenge
-
-Name: Your Name
-GitHub: https://github.com/yourusername
 
 ---
 
